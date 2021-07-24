@@ -1,24 +1,18 @@
-# TurtlePay® Blockchain Data Collection Agent
-![Version](https://img.shields.io/badge/version-0.1.4-blue.svg?cacheSeconds=2592000) ![Prerequisite](https://img.shields.io/badge/node-%3E%3D6-blue.svg) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/TurtlePay/blockchain-data-collection-agent#readme) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/TurtlePay/blockchain-data-collection-agent/graphs/commit-activity) [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-yellow.svg)](https://github.com/TurtlePay/blockchain-data-collection-agent/blob/master/LICENSE) [![Twitter: TurtlePay](https://img.shields.io/twitter/follow/TurtlePay.svg?style=social)](https://twitter.com/TurtlePay)
-
-#### Master Build Status
-[![Build Status](https://travis-ci.org/TurtlePay/blockchain-data-collection-agent.svg?branch=master)](https://travis-ci.org/TurtlePay/blockchain-data-collection-agent) [![Build status](https://ci.appveyor.com/api/projects/status/github/TurtlePay/blockchain-data-collection-agent?branch=master&svg=true)](https://ci.appveyor.com/project/brandonlehmann/blockchain-data-collection-agent/branch/master)
-
-
-> Collects TurtleCoin® blockchain data into a SQL backend that serving and using the data a breeze.
+# MONCoin® Blockchain Data Collection Agent
+> Collects MONCoin® blockchain data into a SQL backend that serving and using the data a breeze.
 
 ## Prerequisites
 
-- TurtleCoin® >= 0.12.0
+- MONCoin® >= 0.12.0
 - node >=6
 - MariaDB/MySQL with InnoDB support
 
 ## Hardware Requirements
 
-For the best performance when using this package (as of December 31, 2019), your Database server must have a minimum of the following:
+For the best performance when using this package (as of July 31, 2021), your Database server must have a minimum of the following:
 
-* 48GB RAM
-  * 46GB dedicated to MariaDB/MySQL
+* 4GB RAM
+  * 4GB dedicated to MariaDB/MySQL
 * 2 CPU Cores (4 Recommended)
 * SSD Storage
 
@@ -48,13 +42,13 @@ npm install
 1) Set your environment variables and start the service up
 
 ```sh
-export MYSQL_HOST=localhost
+export MYSQL_HOST=127.0.0.1
 export MYSQL_PORT=3306
 export MYSQL_USERNAME=yourdbusername
 export MYSQL_PASSWORD=yourdbpassword
 export MYSQL_DATABASE=yourdbname
-export NODE_HOST=localhost
-export NODE_PORT=11898
+export NODE_HOST=127.0.0.1
+export NODE_PORT=12898
 npm start
 ```
 
@@ -69,13 +63,12 @@ npm test
 👤 **TurtlePay® Development Team**
 
 * Twitter: [@TurtlePay](https://twitter.com/TurtlePay)
-* Github: [@TurtlePay](https://github.com/TurtlePay)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/TurtlePay/blockchain-data-collection-agent/issues).
+Feel free to check [issues page](https://github.com/Kulteam/Blockchain-data-collection-agent/issues).
 
 ## Show your support
 
@@ -86,4 +79,4 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2018-2019 [TurtlePay® Development Team](https://github.com/TurtlePay).
 
-This project is [AGPL-3.0](https://github.com/TurtlePay/blockchain-data-collection-agent/blob/master/LICENSE) licensed.
+This project is [AGPL-3.0](https://github.com/Kulteam/Blockchain-data-collection-agent/blob/master/LICENSE) licensed.
