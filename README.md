@@ -58,12 +58,6 @@ npm start
 npm test
 ```
 
-## Author
-
-👤 **TurtlePay® Development Team**
-
-* Twitter: [@TurtlePay](https://twitter.com/TurtlePay)
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -76,7 +70,5 @@ Give a ⭐️ if this project helped you!
 
 
 ## 📝 License
-
-Copyright © 2018-2019 [TurtlePay® Development Team](https://github.com/TurtlePay).
 
 This project is [AGPL-3.0](https://github.com/Kulteam/Blockchain-data-collection-agent/blob/master/LICENSE) licensed.
