@@ -12,7 +12,7 @@ const Metronome = require('node-metronome')
 
 /* Load in our environment variables */
 const env = {
-  enableDebugging: !!((typeof process.env.TURTLEPAY_DEBUG !== 'undefined' && (process.env.TURTLEPAY_DEBUG.toUpperCase() === 'ON' || parseInt(process.env.TURTLEPAY_DEBUG) === 1))),
+  enableDebugging: !!((typeof process.env.MONCOIN_DEBUG !== 'undefined' && (process.env.MONCOIN_DEBUG.toUpperCase() === 'ON' || parseInt(process.env.MONCOIN_DEBUG) === 1))),
   mysql: {
     host: process.env.MYSQL_HOST || 'localhost',
     port: process.env.MYSQL_PORT || 3306,
