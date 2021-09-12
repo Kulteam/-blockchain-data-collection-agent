@@ -1,7 +1,7 @@
 {
-  "name": "turtlepay-bdca",
+  "name": "moncoin-bdca",
   "version": "0.1.9",
-  "description": "TurtlePay: Blockchain Data Collection Agent",
+  "description": "MONCoin: Blockchain Data Collection Agent",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TurtlePay/blockchain-data-collection-agent.git"
+    "url": "git+https://github.com/Kulteam/Blockchain-data-collection-agent.git"
   },
   "keywords": [
-    "TurtlePay"
+    "MONCoin"
   ],
   "author": "TurtlePay Development Team",
   "license": "AGPL-3.0",
@@ -21,16 +21,16 @@
   },
   "engineStrict": true,
   "bugs": {
-    "url": "https://github.com/TurtlePay/blockchain-data-collection-agent/issues"
+    "url": "https://github.com/Kulteam/Blockchain-data-collection-agent/issues"
   },
-  "homepage": "https://github.com/TurtlePay/blockchain-data-collection-agent#readme",
+  "homepage": "https://github.com/Kulteam/Blockchain-data-collection-agent#readme",
   "dependencies": {
     "big-integer": "^1.6.48",
     "colors": "^1.4.0",
     "dotenv": "^8.6.0",
     "mysql": "^2.18.1",
     "node-metronome": "0.0.2",
-    "turtlecoin-rpc": "^2.0.5"
+    "moncoin-rpc": "^2.0.5"
   },
   "devDependencies": {
     "standard": "^13.0.1"
